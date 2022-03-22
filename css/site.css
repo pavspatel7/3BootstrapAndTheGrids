@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 main>.container {
     padding: 60px 15px 0;
+}
+
+.homeBG {
+    width: 100%;
+    background: url(/img/GridBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.homeText {
+    font-family: 'Monoton', cursive;
+    color: yellow;
+}
+
+.minHeight {
+    min-height: 80vh;
 }
